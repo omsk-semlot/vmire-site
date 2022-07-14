@@ -8,21 +8,17 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`
   },
   plugins: [
-	  "gatsby-plugin-postcss", 
-	  "gatsby-plugin-image", 
-	  "gatsby-plugin-sharp", 
-	  "gatsby-transformer-sharp", 
           `gatsby-plugin-react-helmet`,
           `gatsby-transformer-json`,
 	  {
             resolve: 'gatsby-source-filesystem',
             options: {
-              "name": "images",
-               path: `./src/data/`,
-              //"path": "./src/images/"
+              name: "images",
+              path: `./src/data/`,
             },
-            __key: "images"
           },
+	  "gatsby-transformer-sharp", 
+	  "gatsby-plugin-sharp", 
           {
             resolve: `gatsby-plugin-manifest`,
             options: {
@@ -35,6 +31,8 @@ module.exports = {
 	      icon: `src/images/icon.png`,
             },
           },
+	  //"gatsby-plugin-postcss", 
+//	  "gatsby-plugin-image", 
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
