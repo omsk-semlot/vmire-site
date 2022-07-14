@@ -6,7 +6,20 @@ import { graphql } from 'gatsby'
 
 const SEO = ({ title, description, image, pathname, article }) => (
   <StaticQuery
-    query={query}
+    query={graphql`
+  query SEO {
+    site {
+      siteMetadata {
+        defaultTitle: title
+        titleTemplate
+        defaultDescription: description
+        siteUrl
+        defaultImage: image
+        twitterUsername
+      }
+    }
+  }
+  }
     render={({
       site: {
         siteMetadata: {
@@ -74,9 +87,9 @@ SEO.defaultProps = {
   article: false,
 }
 
-//  query SEO {
+/*
 const query = graphql`
-  {
+  query SEO {
     site {
       siteMetadata {
         defaultTitle: title
@@ -89,3 +102,4 @@ const query = graphql`
     }
   }
 `
+*/
