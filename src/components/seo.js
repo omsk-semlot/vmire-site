@@ -18,7 +18,7 @@ const SEO = ({ title, description, image, pathname, article }) => (
         twitterUsername
       }
     }
-  }
+  }`
   }
     render={({
       site: {
