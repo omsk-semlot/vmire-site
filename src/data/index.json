@@ -7,20 +7,23 @@
     "subtitle": "OUR RECENT PROJECTS",
     "home_items": [
       {
-        "name": "GOLDROSE",
-        "image": "images/goldenrose.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
-        "completed": "Summer 2019"
+        "name": "Мораль и нравственность в современном мире",
+        "image": "images/2022-07-01-Nikolajev.jpeg",
+	"url": "https://www.youtube.com/embed/FiGYOCRaNp8",
+        "description": "Беседа известного писателя, воина-афганца с омскими подростками о подвиге, мужестве, о нравственном выборе, который встает перед каждым молодым человеком, вступающем во взрослую жизнь… Беседа прошла 1 июля в конференц-зале Омского епархиального управления.",
+        "completed": "Июль 2022"
       },
       {
-        "name": "Hipster",
+        "name": "Владимир Келарев Рубеж жизни",
         "image": "images/hipster.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+	"url": "https://www.youtube.com/embed/FiGYOCRaNp8",
+        "description": "Об омском стрелковом клубе \"Рубеж\" рассказывает Председатель Федерации Практической Стрельбы Омской Области Владимир Келарев",
         "completed": "Summer 2019"
       },
       {
         "name": "Freedom Travel",
         "image": "images/freedom.png",
+	"url": "https://www.youtube.com/embed/FiGYOCRaNp8",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
         "completed": "Spring 2019"
       }

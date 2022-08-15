@@ -38,8 +38,10 @@ class IndexPage extends Component {
             this.state.smallScreen ? "grid-item-small" : "home-grid-item"
           }
           style={{
-            backgroundImage: `url(${item.image})`,
-            backgroundSize: "100%",
+            backgroundImage: `url(images/start-video.png), url(${item.image})`,
+            backgroundSize: "30%, 100%",
+            backgroundPosition: "center center, center, center",
+            backgroundRepeat: "no-repeat, no-repeat"
           }}
         ></div>
       )
@@ -69,6 +71,16 @@ class IndexPage extends Component {
             }
           >
             <span className="modal-close">&times;</span>
+              <iframe 
+	        width="905" 
+	        height="509" 
+	        src={this.state.modal.url} 
+	        title={this.state.modal.name} 
+	        frameborder="0" 
+	        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+	        allowfullscreen>
+	      </iframe>	    
+	    <p>{indexData.url} : {indexData.title}</p>
             <div className="modal-grid-container">
               <div className="modal-grid-item-left">
                 <span className="modal-title">{this.state.modal.name}</span>
@@ -103,6 +115,7 @@ export const query = graphql`
         subtitle
         home_items {
           name
+	  url
           description
           completed
           image
