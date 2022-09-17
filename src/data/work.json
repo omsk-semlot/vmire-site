@@ -1,9 +1,9 @@
 [
   {
     "__comments": "These are some comments",
-    "title": "Our Work",
+    "title": "Наши работы",
     "description": "Welcome to our company website",
-    "text": "We're on a mission to make the web beautiful. Through our passion for web design & development, we're meeting our goal one client at a time.",
+    "text": "Делаем мир лучше через информацию",
     "work_items": [
       {
         "name": "GOLDROSE",

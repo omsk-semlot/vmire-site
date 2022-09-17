@@ -1,15 +1,15 @@
 [
   {
     "__comments": "These are some comments",
-    "title": "Hello, We are Crafty Co.",
+    "title": "Видеоканал В)МИРЕ",
     "description": "Welcome to our company website",
-    "text": "We're on a mission to make the web beautiful. Through our passion for web design & development, we're meeting our goal one client at a time.",
+    "text": "Делаем мир лучше через информацию",
     "subtitle": "OUR RECENT PROJECTS",
     "home_items": [
       {
         "name": "Мораль и нравственность в современном мире",
         "image": "images/2022-07-01-Nikolajev.jpeg",
-	"url": "https://www.youtube.com/embed/FiGYOCRaNp8",
+	"url": "https://www.youtube.com/embed/X3AqxEZZlVM",
         "description": "Беседа известного писателя, воина-афганца с омскими подростками о подвиге, мужестве, о нравственном выборе, который встает перед каждым молодым человеком, вступающем во взрослую жизнь… Беседа прошла 1 июля в конференц-зале Омского епархиального управления.",
         "completed": "Июль 2022"
       },

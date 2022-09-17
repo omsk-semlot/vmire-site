@@ -81,22 +81,13 @@ class IndexPage extends Component {
 	        allowfullscreen>
 	      </iframe>	    
 	    <p>{indexData.url} : {indexData.title}</p>
-            <div className="modal-grid-container">
-              <div className="modal-grid-item-left">
+              <div>
                 <span className="modal-title">{this.state.modal.name}</span>
                 <p className="modal-text">{this.state.modal.description}</p>
                 <p className="modal-text">
                   Completed: {this.state.modal.completed}
                 </p>
               </div>
-              <div className="modal-grid-item-right">
-                <img
-                  src={this.state.modal.image}
-                  alt={this.state.modal.name}
-                  className="modal-image"
-                ></img>
-              </div>
-            </div>
           </div>
         </div>
       </Layout>

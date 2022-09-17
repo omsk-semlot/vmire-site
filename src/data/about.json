@@ -1,10 +1,10 @@
 [
   {
     "__comments": "These are some comments",
-    "title": "Who We Are",
+    "title": "О нас",
     "description": "Welcome to our company website",
-    "text": "We're on a mission to make the web beautiful. Through our passion for web design & development, we're meeting our goal one client at a time.",
-    "subtitle": "THE TEAM",
+    "text": "Делаем мир лучше через информацию.",
+    "subtitle": "НАША КОМАНДА",
     "name_icon": "images/name.svg",
     "title_icon": "images/title.svg",
     "mail_icon": "images/mail.svg",

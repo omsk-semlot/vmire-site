@@ -9,7 +9,7 @@ class ContactPage extends Component {
       <Layout page={"contact"}>
         <h1 className="title">{contactData.title}</h1>
         <div className="text">
-          We would love to hear from you. Drop us a line.
+          Мы открыты для сотрудничества. Напишите нам.
         </div>
         <div className="contact-grid-container">
           <div className="contact-grid-item">
@@ -22,20 +22,20 @@ class ContactPage extends Component {
           <div className="contact-grid-item">
             <img
               src={contactData.phone_icon}
-              alt="Phone"
+              alt="Телефон"
               className="contact-icon"
             ></img>
           </div>
           <div className="contact-grid-item">
             <img
-              src={contactData.twitter_icon}
-              alt="Twitter"
+              src={contactData.vk_icon}
+              alt="ВКонтакте"
               className="contact-icon"
             ></img>
           </div>
-          <div className="contact-grid-item">info@crafty.co</div>
-          <div className="contact-grid-item">1-xxx-xxx-xx67</div>
-          <div className="contact-grid-item">@CraftyCo</div>
+          <div className="contact-grid-item">vmire@yandex.ru</div>
+          <div className="contact-grid-item">8 (933) 992-11-95</div>
+          <div className="contact-grid-item">vk.com/vmire.omsk</div>
         </div>
       </Layout>
     )
@@ -53,10 +53,10 @@ export const query = graphql`
         text
         email
         phone
-        twitter
+        vk
         email_icon
         phone_icon
-        twitter_icon
+        vk_icon
       }
     }
   }

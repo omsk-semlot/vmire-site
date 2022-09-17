@@ -28,16 +28,16 @@ class Header extends Component {
             <img src={menuIcon} alt="Menu" className="menu-icon"></img>
           </button>
           <Link to="/" className="sidebar-link">
-            <button className="sidebar-item">HOME</button>
+            <button className="sidebar-item">В)МИРЕ</button>
           </Link>
           <Link to="/work" className="sidebar-link">
-            <button className="sidebar-item">WORK</button>
+            <button className="sidebar-item">РАБОТЫ</button>
           </Link>
           <Link to="/about" className="sidebar-link">
-            <button className="sidebar-item">ABOUT</button>
+            <button className="sidebar-item">О НАС</button>
           </Link>
           <Link to="/contact" className="sidebar-link">
-            <button className="sidebar-item">CONTACT</button>
+            <button className="sidebar-item">КОНТАКТЫ</button>
           </Link>
         </div>
       </div>
@@ -45,25 +45,25 @@ class Header extends Component {
       <header className="header">
         <Link to="/">
           <button className={page === "home" ? "button-active" : "button"}>
-            HOME
+            В)МИРЕ
           </button>
         </Link>
         <Link to="/work">
           <button className={page === "work" ? "button-active" : "button"}>
-            WORK
+            РАБОТЫ
           </button>
         </Link>
         <Link to="/">
-          <img src={logo} alt="Crafty Logo" className="logo"></img>
+          <img src={logo} alt="Логотип В)МИРЕ" className="logo"></img>
         </Link>
         <Link to="/about">
           <button className={page === "about" ? "button-active" : "button"}>
-            ABOUT
+            О НАС
           </button>
         </Link>
         <Link to="/contact">
           <button className={page === "contact" ? "button-active" : "button"}>
-            CONTACT
+            КОНТАКТЫ
           </button>
         </Link>
       </header>
