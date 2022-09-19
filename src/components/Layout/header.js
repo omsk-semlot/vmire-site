@@ -27,14 +27,20 @@ class Header extends Component {
           <button className="sidebar-button-on">
             <img src={menuIcon} alt="Menu" className="menu-icon"></img>
           </button>
-          <Link to="/" className="sidebar-link">
-            <button className="sidebar-item">В)МИРЕ</button>
+          <Link to="/public" className="sidebar-link">
+            <button className="sidebar-item">ОБЩЕСТВО</button>
           </Link>
-          <Link to="/work" className="sidebar-link">
-            <button className="sidebar-item">РАБОТЫ</button>
+          <Link to="/culture" className="sidebar-link">
+            <button className="sidebar-item">КУЛЬТУРА</button>
           </Link>
-          <Link to="/about" className="sidebar-link">
-            <button className="sidebar-item">О НАС</button>
+          <Link to="/sport" className="sidebar-link">
+            <button className="sidebar-item">СПОРТ</button>
+          </Link>          
+          <Link to="/films" className="sidebar-link">
+            <button className="sidebar-item">ФИЛЬМЫ</button>
+          </Link>
+          <Link to="/vital" className="sidebar-link">
+            <button className="sidebar-item">ВАЖНОЕ</button>
           </Link>
           <Link to="/contact" className="sidebar-link">
             <button className="sidebar-item">КОНТАКТЫ</button>
@@ -43,29 +49,39 @@ class Header extends Component {
       </div>
     ) : (
       <header className="header">
-        <Link to="/">
-          <button className={page === "home" ? "button-active" : "button"}>
-            В)МИРЕ
+        <Link to="/public">
+          <button className={page === "public" ? "button-active" : "button"}>
+            ОБЩЕСТВО
           </button>
         </Link>
-        <Link to="/work">
-          <button className={page === "work" ? "button-active" : "button"}>
-            РАБОТЫ
+        <Link to="/culture">
+          <button className={page === "culture" ? "button-active" : "button"}>
+            КУЛЬТУРА
+          </button>
+        </Link>
+        <Link to="/sport">
+          <button className={page === "sport" ? "button-active" : "button"}>
+            СПОРТ
           </button>
         </Link>
         <Link to="/">
           <img src={logo} alt="Логотип В)МИРЕ" className="logo"></img>
         </Link>
-        <Link to="/about">
-          <button className={page === "about" ? "button-active" : "button"}>
-            О НАС
+        <Link to="/films">
+          <button className={page === "films" ? "button-active" : "button"}>
+            ФИЛЬМЫ
+          </button>
+        </Link>
+        <Link to="/vital">
+          <button className={page === "vital" ? "button-active" : "button"}>
+            ВАЖНОЕ
           </button>
         </Link>
         <Link to="/contact">
           <button className={page === "contact" ? "button-active" : "button"}>
             КОНТАКТЫ
           </button>
-        </Link>
+        </Link> 
       </header>
     )
   }

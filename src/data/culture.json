@@ -1,0 +1,32 @@
+[
+  {
+    "__comments": "Общество",
+    "title": "Общество",
+    "description": "Актуальное, важное, интересное",
+    "text": "Актуальное, важное, интересное2",
+    "subtitle": "Актуальное, важное, интересное3",
+    "home_items": [
+      {
+        "name": "Мораль и нравственность в современном мире",
+        "image": "images/2022-07-01-Nikolajev.jpeg",
+	"url": "https://www.youtube.com/embed/X3AqxEZZlVM",
+        "description": "Беседа известного писателя, воина-афганца с омскими подростками о подвиге, мужестве, о нравственном выборе, который встает перед каждым молодым человеком, вступающем во взрослую жизнь… Беседа прошла 1 июля в конференц-зале Омского епархиального управления.",
+        "completed": "Июль 2022"
+      },
+      {
+        "name": "Владимир Келарев Рубеж жизни",
+        "image": "images/hipster.png",
+	"url": "https://www.youtube.com/embed/FiGYOCRaNp8",
+        "description": "Об омском стрелковом клубе \"Рубеж\" рассказывает Председатель Федерации Практической Стрельбы Омской Области Владимир Келарев",
+        "completed": "Summer 2019"
+      },
+      {
+        "name": "Freedom Travel",
+        "image": "images/freedom.png",
+	"url": "https://www.youtube.com/embed/FiGYOCRaNp8",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
+        "completed": "Spring 2019"
+      }
+    ]
+  }
+]

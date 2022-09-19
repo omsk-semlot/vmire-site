@@ -26,7 +26,7 @@ class IndexPage extends Component {
     document.getElementById("modal").style.display = "none"
   }
   render() {
-    let indexData = this.props.data.allIndexJson.nodes[0]
+    let indexData = this.props.data.allFilmsJson.nodes[0]
     let homeItems = []
     let i = 0
     indexData.home_items.forEach(item => {
@@ -48,7 +48,7 @@ class IndexPage extends Component {
       i++
     })
     return (
-      <Layout page={"home"}>
+      <Layout page={"films"}>
         <h1 className="title">{indexData.title}</h1>
         <div className="home-main">
           <div className="text">{indexData.text}</div>
@@ -99,7 +99,7 @@ export default IndexPage
 
 export const query = graphql`
   query {
-    allIndexJson {
+    allFilmsJson {
       nodes {
         title
         description

@@ -1,8 +1,8 @@
 import React, { Component } from "react"
-import Layout from "../components/Layout/layout"
+import Layout from "./Layout/layout"
 import { graphql } from 'gatsby'
 
-class IndexPage extends Component {
+class ListPage extends Component {
   state = {
     smallScreen: false,
     modal: { name: "" },
@@ -95,9 +95,8 @@ class IndexPage extends Component {
     )
   }
 }
-export default IndexPage
 
-export const query = graphql`
+const listQuery = graphql`
   query {
     allIndexJson {
       nodes {
@@ -107,7 +106,7 @@ export const query = graphql`
         subtitle
         home_items {
           name
-	        url
+	  url
           description
           completed
           image
@@ -116,3 +115,6 @@ export const query = graphql`
     }
   }
 `
+
+export {ListPage, listQuery}
+
