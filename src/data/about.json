@@ -5,24 +5,24 @@
     "description": "Welcome to our company website",
     "text": "Делаем мир лучше через информацию.",
     "subtitle": "НАША КОМАНДА",
-    "name_icon": "images/name.svg",
-    "title_icon": "images/title.svg",
-    "mail_icon": "images/mail.svg",
-    "twitter_icon": "images/twitter.svg",
+    "name_icon": "/images/name.svg",
+    "title_icon": "/images/title.svg",
+    "mail_icon": "/images/mail.svg",
+    "twitter_icon": "/images/twitter.svg",
     "team_members": [
       {
         "name": "Max Mustard",
         "title": "Backend / Marketing",
         "email": "max@crafty.co",
         "twitter": "@Max_Mustard",
-        "image": "images/man.svg"
+        "image": "/images/man.svg"
       },
       {
         "name": "Joe Squishy",
         "title": "Frontend / Design",
         "email": "joe@crafty.co",
         "twitter": "@Joe_Squishy",
-        "image": "images/man2.svg"
+        "image": "/images/man2.svg"
       }
     ]
   }

@@ -7,8 +7,8 @@
     "email": "vmire@yandex.ru",
     "phone": "8 (933) 992-11-95",
     "vk": "vk.com/vmire.omsk",
-    "email_icon": "images/email.svg",
-    "phone_icon": "images/phone.svg",
-    "vk_icon": "images/vk.svg"
+    "email_icon": "/images/email.svg",
+    "phone_icon": "/images/phone.svg",
+    "vk_icon": "/images/vk.svg"
   }
 ]

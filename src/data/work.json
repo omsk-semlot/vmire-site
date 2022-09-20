@@ -7,25 +7,25 @@
     "work_items": [
       {
         "name": "GOLDROSE",
-        "image": "images/goldenrose.png",
+        "image": "/images/goldenrose.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
         "completed": "Summer 2019"
       },
       {
         "name": "Hipster",
-        "image": "images/hipster.png",
+        "image": "/images/hipster.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
         "completed": "Summer 2019"
       },
       {
         "name": "Hold Fast",
-        "image": "images/holdfast.png",
+        "image": "/images/holdfast.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
         "completed": "Summer 2019"
       },
       {
         "name": "Freedom Travel",
-        "image": "images/freedom.png",
+        "image": "/images/freedom.png",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis eros imperdiet nibh tempor luctus. Maecenas efficitur augue nunc, ac suscipit nisl pretium in. ",
         "completed": "Summer 2019"
       }
