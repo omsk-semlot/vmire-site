@@ -53,7 +53,6 @@ class IndexPage extends Component {
         <div className="home-main">
           <div className="text">{indexData.text}</div>
           <div className="divider"></div>
-          <h2 className="subtitle">{indexData.subtitle}</h2>
           <div
             className={
               this.state.smallScreen
@@ -104,7 +103,6 @@ export const query = graphql`
         title
         description
         text
-        subtitle
         home_items {
           name
 	        url
