@@ -7,12 +7,40 @@
     "subtitle": "Актуальное, важное, интересное3",
     "home_items": [
       {
+        "name": "Стихотворение «Пусть небо будет голубым…»",
+        "image": "/images/2022_05_09_PustNebo.jpeg",
+	      "url": "https://vk.com/video_ext.php?oid=-208623118&id=456239040&hash=0f2fd7a46cad04b6",
+        "description": "Читает Ксения Малахова",
+        "completed": "08 мая 2022"
+      },
+      {
+        "name": "Стихотворение «День Победы»",
+        "image": "/images/2022_05_09_Stih_Beloserova.jpeg",
+	      "url": "https://vk.com/video_ext.php?oid=-208623118&id=456239037&hash=a3ff132a5d416673",
+        "description": "Читает Мария Малахова",
+        "completed": "08 мая 2022"
+      },
+      {
+        "name": "Автобус милосердия г. Омск",
+        "image": "/images/2022_04_23_AvtobusMiloserdija.jpg",
+	      "url": "https://vk.com/video_ext.php?oid=-208623118&id=456239034&hash=30adf79278f48a20",
+        "description": "В Омске действует проект Автобус милосердия, который оказывает помощь бездомным и нуждающимся людям.",
+        "completed": "23 апреля 2022"
+      },
+      {
         "name": "ТЕМА НЕДЕЛИ от 10 марта 2022. Специальная операция. Обвал рубля. Санкции...",
         "image": "/images/2022_03_10_Tema_Nedeli.jpeg",
 	      "url": "https://vk.com/video_ext.php?oid=-208623118&id=456239027&hash=7becf5d77fd21c89Э",
         "description": "В это тяжелое время цени жизнь, помагай ближним. Будь добрее",
         "completed": "10 марта 2022"
       },      
+      {
+        "name": "Обзор новостей Омска и Области от 7 апреля 2022 г.",
+        "image": "/images/2022_04_07_НовостиОмска.jpeg",
+	      "url": "https://vk.com/video_ext.php?oid=-208623118&id=456239033&hash=6e28f69177a26ee3",
+        "description": "6 апреля прошло торжественное открытие еще одного детского сада в рамках нацпроекта «Демография». https://www.omskgorsovet.ru/news/v-omske-v-ramkakh-nacproekta-otkrylsya-novyy-detskiy-sad\n\nАвиакомпания «Уральские авиалинии» отменила рейсы из Омска в Москву. до 28 мая. https://omskgazzeta.ru/all-news/do-28-maja-omichi-ne-smogut-uletet-v-moskvu-na-samoletah-uralskih-avialinij/\n\nВ Омске маршрут № 55 стал работать по регулируемому тарифу. https://admomsk.ru/web/guest/government/divisions/36/news/-/asset_publisher/pD5F/content/1090827\n\n9 мая на Соборной площади в Омске пройдет Парад Победы, сообщили в региональном правительстве. https://12-kanal.ru/news/92214/\n\nВ Омске появился новый сервис аренды самокатов «Whoosh» https://www.om1.ru/auto/news/265192-arenda_ehlektrosamokatov_v_omske__chto_nuzhno_znat_pered_poezdkojj/\n\nОмская область заняла 79-е место в демографическом рейтинге. https://newsomsk.ru/news/124484-omskaya_oblast_okazalas_na_79_meste_demografichesk/",
+        "completed": "07 марта 2022"
+      },
       {
         "name": "Аня Сереброва на одном из мастер-классов, которые проводи СРЦ \"Радость\"",
         "image": "/images/2021_12_00_Novy_God_Radost.jpeg",

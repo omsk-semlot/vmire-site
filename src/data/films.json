@@ -7,6 +7,13 @@
     "subtitle": "ФИЛЬМЫ4",    
     "home_items": [
       {
+        "name": "Автобус милосердия г. Омск",
+        "image": "/images/2022_04_23_AvtobusMiloserdija.jpg",
+	      "url": "https://vk.com/video_ext.php?oid=-208623118&id=456239034&hash=30adf79278f48a20",
+        "description": "В Омске действует проект Автобус милосердия, который оказывает помощь бездомным и нуждающимся людям.",
+        "completed": "23 апреля 2022"
+      },
+      {
         "name": "Что происходит с наследием Достоевского в Омске?",
         "image": "/images/2021_08_00_Dostoevsky.jpeg",
 	      "url": "https://vk.com/video_ext.php?oid=-208623118&id=456239017&hash=b3674647a8eaf7a7&hd=2",

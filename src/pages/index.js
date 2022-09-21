@@ -38,7 +38,7 @@ class IndexPage extends Component {
             this.state.smallScreen ? "grid-item-small" : "home-grid-item"
           }
           style={{
-            backgroundImage: `url(images/start-video.png), url(${item.image})`,
+            backgroundImage: `url(/images/start-video.png), url(${item.image})`,
             backgroundSize: "30%, 100%",
             backgroundPosition: "center center, center, center",
             backgroundRepeat: "no-repeat, no-repeat"
