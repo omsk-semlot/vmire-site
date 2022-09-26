@@ -5,8 +5,7 @@ class Footer extends Component {
     return (
       <footer className="footer">
         <a href="https://simplecode.io" className="footer-text">
-          © {new Date().getFullYear()}
-          {` `} Simplecode. All rights reserved.
+          © 2021-2022 {` `}. Авторские права на опубликованные материалы принадлежат Видеоканалу "ВМИРЕ"
         </a>
       </footer>
     )
