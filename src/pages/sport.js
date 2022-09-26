@@ -80,7 +80,6 @@ class IndexPage extends Component {
 	        allowfullscreen>
 	      </iframe>	    
 
-	    <p>{indexData.url} : {indexData.title}</p>
               <div>
                 <span className="modal-title">{this.state.modal.name}</span>
                 <p className="modal-text">{this.state.modal.description}</p>
