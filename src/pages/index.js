@@ -53,7 +53,6 @@ class IndexPage extends Component {
         <div className="home-main">
           <div className="text">{indexData.text}</div>
           <div className="divider"></div>
-          <h2 className="subtitle">{indexData.subtitle}</h2>
           <div
             className={
               this.state.smallScreen
@@ -81,7 +80,6 @@ class IndexPage extends Component {
 	        allowfullscreen>
 	      </iframe>	    
 
-	    <p>{indexData.url} : {indexData.title}</p>
               <div>
                 <span className="modal-title">{this.state.modal.name}</span>
                 <p className="modal-text">{this.state.modal.description}</p>
@@ -104,7 +102,6 @@ export const query = graphql`
         title
         description
         text
-        subtitle
         home_items {
           name
 	        url
