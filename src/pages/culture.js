@@ -84,7 +84,7 @@ class IndexPage extends Component {
                 <span className="modal-title">{this.state.modal.name}</span>
                 <p className="modal-text">{this.state.modal.description}</p>
                 <p className="modal-text">
-                  Completed: {this.state.modal.completed}
+                  Дата создания: {this.state.modal.completed}
                 </p>
               </div>
           </div>
